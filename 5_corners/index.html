@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <script defer src="./js/index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav header__nav-left list-reset">
+                <ul class="nav__list list-reset">
+                    <li class="nav__item reg-14">
+                        <a href="#" class="link nav__link">Каталог</a>
+                    </li>
+                    <li class="nav__item reg-14">
+                        <a href="#" class="link nav__link">О компании</a>
+                    </li>
+                    <li class="nav__item reg-14">
+                        <a href="#" class="link nav__link">Магазины</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#"><svg class="container__svg-block-logo svg-block-logo">
+                <use xlink:href="icon.svg#logo"></use>
+            </svg></a>
+            <nav class="header__nav-right nav-right">
+                <a class="nav-right__link link" href="#">
+                    <svg class="svg-block">
+                        <use xlink:href="icon.svg#search"></use>
+                      </svg>
+                </a>
+                <a class="nav-right__link link" href="#">
+                    <svg class="svg-block">
+                        <use xlink:href="icon.svg#account"></use>
+                      </svg>
+                </a>
+                <a class="nav-right__link link" href="#">
+                    <svg class="svg-block2">
+                        <use xlink:href="icon.svg#heart-with-numbers"></use>
+                      </svg>
+                </a>
+                <a class="nav-right__link link" href="#">
+                    <svg class="svg-block2">
+                        <use xlink:href="icon.svg#bag-with-numbers"></use>
+                      </svg>
+                </a>
+            </nav>
+            <div class="burger header__burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__ordering">
+            <div class="main__links-pages links-pages">
+                <a class="link reg-12 links-pages__main-link" href="#">Главная&nbsp;&nbsp;&nbsp;/</a><a class="link links-pages__order-link reg-12" href="#">Оформление заказа</a>
+            </div>
+            <div class="main__container container">
+                <div class="main__ordering-left ordering-left">
+                    <div class="ordering-left__main-title-block main-title-block">
+                        <h1 class="main-title-block__main-title reg-40">Оформление заказа</h1>
+                        <p class="main-title-block__text reg-14">Есть аккаунт? <a class="link main-title-block__link reg-14" href="#">Войти</a></p>
+                    </div>
+                    <h2 class="ordering-left__title reg-28">3 товара на сумму 25 000 ₽ </h2>
+                    <div class="ordering-left__first-item first-item">
+                        <div class="first-item__div-first-item-320 div-first-item-320">
+                            <img class="div-first-item-320__img-320" src="./img/first-item.png" alt="pic-item">
+                            <h3 class="div-first-item-320__title-320 reg-20">Утепленная стеганная куртка женская Top Hills</h3>
+                            <svg class="svg-block3 svg-block3-320">
+                                <use xlink:href="icon.svg#X"></use>
+                              </svg>
+                        </div>
+                        <img class="first-item__img" src="./img/first-item.png" alt="pic-item">
+                        <div class="first-item__props props">
+                            <h3 class="props__title reg-20">Утепленная стеганная куртка женская Top Hills</h3>
+                            <p class="props__text reg-12">Артикул <a class="props__link link reg-12" href="#">512-05</a></p>
+                            <p class="props__text props__text2 reg-12">Сезон <a class="props__link link reg-12" href="#">Осень-зима</a></p>
+                            <div class="props__size size">
+                                <span class="size__btn-changed reg-12">XS</span>
+                                <span class="size__btn-changed reg-12">S</span>
+                                <span class="size__btn-changed reg-12">M</span>
+                                <span class="size__btn-changed reg-12">L</span>
+                                <span class="size__btn-changed reg-12">XL</span>
+                            </div>
+                            <div class="props__inputs-color inputs-color">
+                                <label class="inputs-color__1"><input class="inputs-color__radio" type="radio" name="color"><span class="inputs-color__span"></span></label>
+                                <label class="inputs-color__2"><input class="inputs-color__radio" type="radio" name="color"><span class="inputs-color__span"></span></label>
+                                <label class="inputs-color__3"><input class="inputs-color__radio" type="radio" name="color"><span class="inputs-color__span"></span></label>
+                            </div>
+                        </div>
+                        <div class="first-item__price-option price-option">
+                            <div class="price-option__left-price left-price">
+                                <p class="left-price__text-strike reg-12-strikethrough">12 000 ₽</p>
+                                <p class="left-price__text bold-20">10 000 ₽</p>
+                            </div>
+                            <div class="price-option__counter counter">
+                                <button class="counter__btn-left"></button>
+                                <span class="counter__input"></span>
+                                <button class="counter__btn-right"></button>
+                            </div>
+                            <div class="price-option__right-price right-price">
+                                <p class="right-price__text-strike reg-12-strikethrough">24 000 ₽</p>
+                                <p class="right-price__text bold-20">20 000 ₽</p>
+                            </div>
+                            <svg class="price-option__svg-block3 svg-block3">
+                                <use xlink:href="icon.svg#X"></use>
+                              </svg>
+                        </div>
+                    </div>
+                    <div class="ordering-left__delete-item delete-item">
+                        <p class="delete-item__text reg-16">Товар <a class="link bold-16 delete-item__text-link" href="#">Наименование товара</a> был удален из корзины.</p>
+                        <a class="delete-item__link reg-14 link" href="#">Восстановить</a>
+                        <svg class="delete-item__svg-block3 svg-block3">
+                            <use xlink:href="icon.svg#X"></use>
+                          </svg>
+                    </div>
+                    <div class="ordering-left__second-item second-item">
+                        <div class="second-item__div-320-second div-320-second">
+                            <img class="div-320-second__img-320" src="./img/second-item.png" alt="pic-item">
+                            <h3 class="div-320-second__title-320 reg-20">Вязанная шапка Zolla</h3>
+                            <svg class="svg-block3 svg-block3-320">
+                                <use xlink:href="icon.svg#X"></use>
+                              </svg>
+                        </div>
+                        <img class="second-item__img" src="./img/second-item.png" alt="pic-item">
+                        <div class="second-item__props props">
+                            <h3 class="props__title reg-20">Вязанная шапка Zolla</h3>
+                            <p class="props__text reg-12">Артикул <a class="props__link link reg-12" href="#">891-256</a></p>
+                            <p class="props__text reg-12">Сезон <a class="props__link link reg-12" href="#">Демисезон</a></p>
+                            <div class="props__size size size2">
+                                <span class="size__btn-changed reg-12">XS</span>
+                                <span class="size__btn-changed reg-12">S</span>
+                                <span class="size__btn-changed reg-12">M</span>
+                                <span class="size__btn-changed-disabled reg-12">L</span>
+                                <span class="size__btn-changed-disabled reg-12">XL</span>
+                            </div>
+                            <div class="props__inputs-color inputs-color">
+                                <label class="inputs-color__1"><input class="inputs-color__radio" type="radio" name="color"><span class="inputs-color__span"></span></label>
+                            </div>
+                        </div>
+                        <div class="second-item__price-option price-option">
+                            <div class="price-option__left-price left-price">
+                                <p class="left-price__text bold-20">500 ₽</p>
+                            </div>
+                            <div class="price-option__counter counter">
+                                <button class="counter__btn-left"></button>
+                                <span class="counter__input"></span>
+                                <button class="counter__btn-right"></button>
+                            </div>
+                            <div class="price-option__second-right-price second-right-price">
+                                <p class="second-right-price__text bold-20">500 ₽</p>
+                            </div>
+                            <svg class="svg-block3 second-item__price-option__svg-block3">
+                                <use xlink:href="icon.svg#X"></use>
+                              </svg>
+                        </div>
+                    </div>
+                    <form class="ordering-left__contact-data contact-data form" action="url" id="add-data">
+                        <h2 class="contact-data__title reg-28">Контактные данные</h2>
+                        <div class="contact-data-inside">
+                            <input class="contact-data-inside__input-contact" id="input-name" data-min-length="2" type="text" placeholder="Имя">
+                            <input class="contact-data-inside__input-contact" id="input-surname" data-required="true" data-min-length="2" type="text" placeholder="Фамилия">
+                            <input class="contact-data-inside__input-contact" id="input-phone" data-required="true" data-min-length="11" type="tel" placeholder="Телефон">
+                            <input class="contact-data-inside__input-contact" id="input-mail" data-required="true" type="email" placeholder="Email">
+                            <div class="contact-data-inside__input-contact-div-down input-contact-div-down">
+                                <input class="contact-data-inside__input-contact-address" type="search" placeholder="Адрес доставки">
+                                <svg class="input-contact-div-down__svg-block">
+                                    <use xlink:href="icon.svg#search"></use>
+                                  </svg>
+                            </div>
+                            <div class="contact-data-inside__map" id="map1">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="ordering-left__payment payment">
+                        <h2 class="payment__title reg-28">Оплата</h2>
+                        <div class="payment__payment-form payment-form">
+                            <label class="payment-form__label">
+                                <input class="payment-form__radio" type="radio">
+                                <span class="payment-form__span"></span>
+                                <span class="payment-form__text">Наличными курьеру</span>
+                        </label>
+                        <label class="payment-form__label">
+                            <input class="payment-form__radio" type="radio">
+                            <span class="payment-form__span"></span>
+                            <span class="payment-form__text">Картой курьеру</span>
+                    </label><label class="payment-form__label" >
+                        <input class="payment-form__radio" type="radio">
+                        <span class="payment-form__span"></span>
+                        <span class="payment-form__text">Картой онлайн</span>
+                </label>
+                        </div>
+                    </div>
+                    <form class="ordering-left__comment-to-order comment-to-order form" id="add-comment" action="url">
+                        <h2 class="reg-28 comment-to-order__title">Комментарий к заказу</h2>
+                        <input class="comment-to-order__input reg-16" placeholder="Комментарий к заказу" type="text">
+                        <span class="comment-to-order__text reg-12">Использовано 0/142 символов</span>
+                    </form>
+                </div>
+                <div class="main__ordering-right ordering-right">
+                    <div class="ordering-right__order-payment order-payment">
+                        <div class="order-payment__items-order items-order">
+                            <span class="items-order__price-reg reg-20">
+                                Товары
+                            </span>
+                            <span class="bold-20 items-order__price-bold">
+                                24 500 ₽
+                            </span>
+                        </div>
+                        <div class="order-payment__discount discount">
+                            <span class="reg-20 discount__price-reg">
+                                Скидка
+                            </span>
+                            <span class="bold-20 discount__price-bold">
+                               -4 500 ₽
+                            </span>
+                        </div>
+                        <div class="order-payment__promotion promotion">
+                            <span class="reg-16 promotion__price">
+                                Акции
+                            </span>
+                            <span class="reg-16 promotion__price">
+                               -4 000 ₽
+                            </span>
+                        </div>
+                        <div class="order-payment__promo promo">
+                            <span class="reg-16 promo__price">
+                                Промокод
+                            </span>
+                            <span class="reg-16 promo__price">
+                               -500 ₽
+                            </span>
+                        </div>
+                        <div class="order-payment__delivery delivery">
+                            <span class="reg-20 delivery__price-reg">
+                                Доставка
+                            </span>
+                            <span class="bold-20 delivery__price-bold">
+                               200 ₽
+                            </span>
+                        </div>
+                        <div class="order-payment__storage storage">
+                            <div class="storage__text">
+                                <span class="reg-20 storage-price">
+                                    Получить товар со склада
+                                </span>
+                                <div class="storage__iput-btn">
+                                    <label class="storage__label">
+                                        <input class="storage__input" type="checkbox">
+                                        <span class="storage__span">
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="reg-12">Сроки получения могут измениться</p>
+                        </div>
+                        <div class="order-payment__equel equel">
+                            <span class="bold-28 equel-price-bold">
+                                Итого:
+                            </span>
+                            <span class="bold-28 equel-price-bold">
+                                20 700 ₽
+                            </span>
+                        </div>
+                        <input class="order-payment__input reg-16" type="text" name="promo" id="promo" placeholder="Введите промокод">
+                        <button id="send-form" class="order-payment__btn bold-16">Оформить заказ</button>
+                        <p class="order-payment__text reg-14">Нажимая кнопку “Оформить заказ”, Вы соглашаетесь с <a class="link order-payment__link" href="#">политикой конфиденциальности.</a></p>
+                    </div>
+                    <div class="ordering-right__map" id="map">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__up-container up-container">
+                <div class="up-container__up-left-footer up-left-footer">
+                    <h2 class="up-left-footer__title reg-28">
+                        Скидка&nbsp;10% за&nbsp;подписку на&nbsp;наши новости
+                    </h2>
+                    <div class="up-left-footer__input-footer input-footer">
+                        <input class="input-footer__input" type="email" placeholder="example@mail.ru">
+                        <svg class="svg-block input-footer__svg-block">
+                            <use xlink:href="icon.svg#search"></use>
+                          </svg>
+                          <a class="link input-footer__link bold-16" href="#">Подписаться</a>
+                    </div>
+                    <p class="up-left-footer__text reg-14">
+                        Нажимая кнопку &laquo;Подписаться&raquo;, Вы&nbsp;соглашаетесь с&nbsp;<a class="link link-privacy-policy" href="#">политикой конфиденциальности</a>
+                    </p>
+                </div>
+                <div class="up-container__up-right-footer up-right-footer">
+                    <div class="up-right-footer__nav-footer nav-footer">
+                        <ul class="nav-footer__list list-reset"> 
+                            <li class="nav-footer__item reg-14">
+                                <a class="nav-footer__link link" href="#">Каталог</a>
+                            </li>
+                            <li class="nav-footer__item reg-14">
+                                <a class="nav-footer__link link" href="#">О компании</a>
+                            </li>
+                            <li class="nav-footer__item reg-14">
+                                <a class="nav-footer__link link" href="#">Магазины</a>
+                            </li>
+                            <li class="nav-footer__item reg-14">
+                                <a class="nav-footer__link link" href="#">Новости</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="up-right-footer__nav-finance nav-finance">
+                        <ul class="nav-finance__list list-reset">
+                            <li class="nav-finance__item reg-14">
+                                <a class="nav-finance__link link" href="#">Оплата и доставка</a>
+                            </li>
+                            <li class="nav-finance__item reg-14">
+                                <a class="nav-finance__link link" href="#">Условия возврата</a>
+                            </li>
+                            <li class="nav-finance__item reg-14">
+                                <a class="nav-finance__link link" href="#">Бонусная система</a>
+                            </li>
+                            <li class="nav-finance__item reg-14">
+                                <a class="nav-finance__link link" href="#">Подарочный сертификат</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="up-right-footer__nav-social-media nav-social-media">
+                        <ul class="nav-social-media__list list-reset">
+                            <li class="nav-social-media__item reg-14">
+                                <a class="nav-social-media__link link" href="#">Telegram</a>
+                            </li>
+                            <li class="nav-social-media__item reg-14">
+                                <a class="nav-social-media__link link" href="#">WhatsApp</a>
+                            </li>
+                            <li class="nav-social-media__item reg-14">
+                                <a class="nav-social-media__link link" href="#">Youtube</a>
+                            </li>
+                            <li class="nav-social-media__item reg-14">
+                                <a class="nav-social-media__link link" href="#">VK</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__privacy-policy privacy-policy">
+            <a class="reg-14-gray privacy-policy__1" href="#">© All rights reserved</a>
+            <a class="reg-14-gray privacy-policy__2" href="#">Публичная оферта</a>
+            <a class="reg-14-gray privacy-policy__3" href="#">Политика конфиденциальности</a>
+            <a class="reg-14 link privacy-policy__4" href="#">Сделано в студии <svg class="svg-block4">
+                <use xlink:href="icon.svg#logo-down"></use>
+              </svg> 5 УГЛОВ</a>
+        </div>
+    </footer>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=your API-key&lang=ru_RU" type="text/javascript"></script>
+</body>
+</html>
+
+    <!-- <div class="svg">
+    <svg class="svg_block">
+        <use xlink:href="icon.svg#search"></use>
+      </svg>
+      <svg class="svg_block">
+        <use xlink:href="icon.svg#account"></use>
+      </svg>
+      <svg class="svg_block">
+        <use xlink:href="icon.svg#heart"></use>
+      </svg>
+      <svg class="svg_block">
+        <use xlink:href="icon.svg#heart-with-numbers"></use>
+      </svg>
+      <svg class="svg_block">
+        <use xlink:href="icon.svg#bag"></use>
+      </svg>
+      <svg class="svg_block">
+        <use xlink:href="icon.svg#bag-with-numbers"></use>
+      </svg>
+      <svg class="svg-block3">
+        <use xlink:href="icon.svg#X"></use>
+      </svg>
+      <svg class="svg_block">
+        <use xlink:href="icon.svg#back"></use>
+      </svg>
+    </div> -->

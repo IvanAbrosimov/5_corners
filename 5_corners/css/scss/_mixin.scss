@@ -1,0 +1,27 @@
+@mixin clearListStyles {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border-style: none;
+}
+
+@mixin displayFlex {
+    display: flex;
+}
+
+@mixin fWeight {
+    font-weight: 400;
+}
+
+@mixin mB20px {
+    margin-bottom: 20px;
+}
+
+@mixin jConSpBtw {
+    justify-content: space-between;
+}
+
+@mixin animation {
+    transition: all .3s ease-in-out;
+}
